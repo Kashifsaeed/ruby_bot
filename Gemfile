@@ -37,7 +37,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
-  gem 'factory_bot_rails'
+  gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry-rails'
   gem 'pry-rescue'
@@ -48,3 +48,4 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
 end
+gem 'programr'
