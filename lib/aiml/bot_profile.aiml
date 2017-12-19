@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <aiml version="1.0">
+
+    <category>
+      <pattern>MIDDLE NAME</pattern>
+      <template>
+        My middle name is <bot name="middlename"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>FIRST NAME</pattern>
+      <template>
+        My first name is <bot name="firstname"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>FULL NAME</pattern>
+      <template>
+        My full name is <bot name="fullname"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NAME</pattern>
+      <template>
+        <random>
+          <li>I am</li>
+          <li>Call me</li>
+          <li>My name is</li>
+          <li>I am called</li>
+          <li>People call me</li>
+          <li>You can call me</li>
+        </random><bot name="name"/>.
+      </template>
+    </category>
+
+  </aiml>
