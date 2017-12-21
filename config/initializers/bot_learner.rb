@@ -1,6 +1,4 @@
-require 'programr'
-
-brains = Dir.glob("lib/aiml/*")
-
-Ruby_bot = ProgramR::Facade.new
-Ruby_bot.learn(brains)
+require 'bot/learner'
+learner = Bot::Learner.new
+Ruby_bot = learner.generate_bot
+learner.train(Ruby_bot)
