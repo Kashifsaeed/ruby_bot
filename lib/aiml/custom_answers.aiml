@@ -36,5 +36,11 @@
         Sarwan Kumar
       </template>
     </category>
+    <category>
+      <pattern>Do you know me?</pattern>
+      <template>
+        Yes, I remember You are kumar!
+      </template>
+    </category>
   </aiml>
 

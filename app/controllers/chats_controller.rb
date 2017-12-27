@@ -17,8 +17,6 @@ class ChatsController < ApplicationController
 
   private
     def teach_bot pattern,template
-      bot_learner = Bot::Learner.new
-      bot_learner.append_answer(pattern,template)
-      bot_learner.train(Ruby_bot)
+      Bot::Learner.teach(pattern,template,Ruby_bot)
     end
 end

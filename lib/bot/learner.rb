@@ -39,5 +39,11 @@ CATEGORY
       lines[-1] = new_category << $/
       File.open(custom_path, 'w') { |f| f.write(lines.join); f.close }
     end
+
+    def self.teach pattern,template,bot
+      bot_learner = Bot::Learner.new
+      bot_learner.append_answer(pattern,template)
+      bot_learner.train(bot)
+    end
   end
 end
