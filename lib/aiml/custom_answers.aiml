@@ -42,5 +42,27 @@
         Yes, I remember You are kumar!
       </template>
     </category>
+    <category>
+      <pattern>Hey</pattern>
+      <template>
+        Hi. Whats up?
+      </template>
+    </category>
+    <category>
+      <pattern>d</pattern>
+      <template>
+      </template>
+    </category>
+    <category>
+      <pattern>d</pattern>
+      <template>
+      </template>
+    </category>
+    <category>
+      <pattern>dd</pattern>
+      <template>
+        test
+      </template>
+    </category>
   </aiml>
 

@@ -11,7 +11,7 @@ ul.list-group.chat_list
 
 br
 h5 Not Satisfied with Last Answer?
-= simple_form_for :custom,url: learn_chats_path,html: {id: "custom_train_form",remote: true} do |f|
+= simple_form_for :chat,url: learn_chats_path,html: {id: "custom_train_form",remote: true} do |f|
   = f.input :pattern,label: false,placeholder: "Your Pattern"
   = f.input :template,label: false,placeholder: "Your Template"
   = f.submit "Submit"

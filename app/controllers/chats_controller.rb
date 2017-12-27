@@ -9,8 +9,8 @@ class ChatsController < ApplicationController
   end
 
   def learn
-    pattern = params[:custom][:pattern].strip
-    template = params[:custom][:template]
+    pattern = params[:chat][:pattern].strip
+    template = params[:chat][:template]
     teach_bot(pattern,template)
   end
 
