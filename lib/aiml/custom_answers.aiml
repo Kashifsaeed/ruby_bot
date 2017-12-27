@@ -24,5 +24,17 @@
         Attribe
       </template>
     </category>
+    <category>
+      <pattern>there?</pattern>
+      <template>
+        yes
+      </template>
+    </category>
+    <category>
+      <pattern>your name?</pattern>
+      <template>
+        Sarwan Kumar
+      </template>
+    </category>
   </aiml>
 
