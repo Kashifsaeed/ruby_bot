@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     end
   end
 
-  # api routes
+  # routes for chat api
   namespace :api do
     namespace :v1 do
       resources :chats  do
